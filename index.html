@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Side View Crafting Steps</title>
+</head>
+<body>
+    <header>
+        <h1>Side View Crafting Steps for Wooden Clock Souvenir</h1>
+    </header>
+    
+    <main class="container">
+        <section class="card" id="materialSelection">
+            <h2>Material Selection</h2>
+            <button onclick="toggleDetails('materialDetails')">View Details</button>
+            <div class="details" id="materialDetails">
+                <ul>
+                    <li>Select durable hardwood suitable for detailed carving.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="card" id="cuttingShape">
+            <h2>Cutting and Shaping</h2>
+            <button onclick="toggleDetails('cuttingDetails')">View Details</button>
+            <div class="details" id="cuttingDetails">
+                <ul>
+                    <li>Cut wood into the initial bolt and nut shapes.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="card" id="threading">
+            <h2>Threading</h2>
+            <button onclick="toggleDetails('threadingDetails')">View Details</button>
+            <div class="details" id="threadingDetails">
+                <ul>
+                    <li>Use a lathe to create threads on the bolt and nut.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="card" id="drillingRecess">
+            <h2>Drilling Recess</h2>
+            <button onclick="toggleDetails('drillingDetails')">View Details</button>
+            <div class="details" id="drillingDetails">
+                <ul>
+                    <li>Drill a recess on one end of the bolt for the clock insert.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="card" id="finishingTouches">
+            <h2>Finishing Touches</h2>
+            <button onclick="toggleDetails('finishingTouchDetails')">View Details</button>
+            <div class="details" id="finishingTouchDetails">
+                <ul>
+                    <li>Apply finish to enhance wood’s natural grain.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="card" id="assembly">
+            <h2>Assembly</h2>
+            <button onclick="toggleDetails('assemblyDetails')">View Details</button>
+            <div class="details" id="assemblyDetails">
+                <ul>
+                    <li>Screw the nut onto the bolt, securing the threaded sections.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
